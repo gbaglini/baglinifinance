@@ -1,0 +1,2 @@
+# baglinifinance
+Quantitative Finance Research
