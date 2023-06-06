@@ -1,2 +1,6 @@
 Layout_test.ipynb
 src/html_jupyters
+.ipynb_checkpoints/
+.idea/
+__pycache__/
+
