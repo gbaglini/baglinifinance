@@ -3,4 +3,8 @@ src/html_jupyters
 .ipynb_checkpoints/
 .idea/
 __pycache__/
+utils/__pycache__/
+src/.ipynb_checkpoints/
+src/II.1. Factor Models/.ipynb_checkpoints/
+src/II.2 Principal Component Analysis/.ipynb_checkpoints/
 
