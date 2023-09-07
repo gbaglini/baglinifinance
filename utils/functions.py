@@ -9,7 +9,7 @@ def PCA(matrix):
     var_exp = -np.sort(-(eigenvalues / eigenvalues.sum())) #np.sort does not have descending option
     cum_var_exp = var_exp.cumsum()
     df_eigenvalues = pd.DataFrame(np.stack([eigenvalues, var_exp, cum_var_exp], axis=0), 
-                index=["Eignevalue", "Variation Explained", "Cumulative Variation"],
+                index=["Eigenvalue", "Variation Explained", "Cumulative Variation"],
                 columns = ["λ"+str(i) for i in range(1, len(eigenvalues)+1)])
     
     df_eigenvectors = pd.DataFrame(eigenvectors, 
