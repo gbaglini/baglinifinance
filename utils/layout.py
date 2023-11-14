@@ -24,4 +24,4 @@ blog_template = dict(
 pio.templates["blog_mra"] = blog_template
 
 def to_jupyter_latex(df, digits=2):
-    print(df.to_latex(index=True, float_format="{:.2f}".format,).replace('\\toprule', '\\hline').replace('\\midrule', '\\hline').replace('\\bottomrule','\\hline').replace('tabular', 'array'))
+    print(df.head().to_latex(index=True, float_format="{:.2f}".format,).replace('\\toprule', '\\hline').replace('\\midrule', '\\hline').replace('\\bottomrule','\\hline').replace('tabular', 'array'))

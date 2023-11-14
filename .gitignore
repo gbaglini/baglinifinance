@@ -4,6 +4,7 @@ src/html_jupyters
 .idea/
 __pycache__/
 utils/__pycache__/
+utils/config.py
 src/.ipynb_checkpoints/
 src/II.1. Factor Models/.ipynb_checkpoints/
 src/II.2 Principal Component Analysis/.ipynb_checkpoints/
