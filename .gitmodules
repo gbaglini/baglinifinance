@@ -1,0 +1,3 @@
+[submodule "baglinifinance_charts"]
+	path = baglinifinance_charts
+	url = https://github.com/gbaglini/baglinifinance_charts.git
