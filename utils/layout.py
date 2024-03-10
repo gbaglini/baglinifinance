@@ -4,11 +4,11 @@ import plotly.express as px
 
 image_trace = go.layout.Image(
             name="Logo",
-            source="Logo Blue BagliniFInance.png",
+            source="https://i.imgur.com/jOJ85f2.png",
             xref="paper",
             yref="paper",
-            x=1.05,
-            y=-0.314,
+            x=1.08,
+            y=-0.344,
             sizex=0.13,
             sizey=0.2,
             sizing="stretch",
@@ -37,7 +37,7 @@ blog_template_logo = dict(
             borderwidth=1,
             orientation='h'
         ),
-        images= [image_trace]  # Add the image trace to the layout template
+        images= [image_trace],  # Add the image trace to the layout template
     )
 )
 #pio.templates["blog_mra"] = blog_template
